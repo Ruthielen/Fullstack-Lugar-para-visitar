@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    background-color: #f4f4f4;
+}
+
+div, p, h1 {
+    width: 100%;
+    max-width: 960px; 
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    padding: 8px;
+    margin: 5px 0;
+    width: 60%;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+ol, ul, dl {
+    text-align: left;
+    width: 80%; 
+    margin-left: 0; 
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+
+#doramas-title {
+    text-align: center;
+    width: 100%; 
+}
